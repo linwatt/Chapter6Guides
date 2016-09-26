@@ -1,0 +1,71 @@
+[
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1944146799",
+  "source": {
+   "name": "drink magnets 1",
+   "showName": false,
+   "instructions": "\n//Populate the drink image\nImageView photo = (ImageView)findViewById(R.id.photo);",
+   "points": "1",
+   "showValues": false,
+   "text": "photo.<<<setImageResource>>>(drink.getImageResourceId());\nphoto.<<<setContentDescription>>>(drink.getName());\n",
+   "tokens": {
+    "blank": [
+     "setImageResource",
+     "setContentDescription"
+    ],
+    "text": [
+     "photo.",
+     0,
+     "(drink.getImageResourceId());\nphoto.",
+     0,
+     "(drink.getName());\n"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2206092048",
+  "source": {
+   "name": "drink magents",
+   "showName": false,
+   "instructions": "//Populate the drink name\nTextView name = (TextView)findViewById(R.id.name);\n",
+   "points": "1",
+   "showValues": false,
+   "text": "name.<<<setText>>>(drink.getName());",
+   "tokens": {
+    "blank": [
+     "setText"
+    ],
+    "text": [
+     "name.",
+     0,
+     "(drink.getName());"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-3606999149",
+  "source": {
+   "name": "drink magnets 4",
+   "showName": false,
+   "instructions": "//Populate the drinks description\nTextView description = (TextView)findViewById(R.id.description);\n",
+   "points": "1",
+   "showValues": false,
+   "text": "description.<<<setText>>>(drink.getDescription());",
+   "tokens": {
+    "blank": [
+     "setText"
+    ],
+    "text": [
+     "description.",
+     0,
+     "(drink.getDescription());"
+    ]
+   }
+  }
+ }
+]
