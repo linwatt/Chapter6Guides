@@ -5,16 +5,13 @@
 ![](.guides/img/53.png)
 
 **3) When the user clicks on an item in the list view, the onItemClickListener’s onItemClick() method gets called.**
-If the Drinks item was clicked, the 
-<font style="font-family:courier;">onItemClickListener</font> creates an intent to start 
-<font style="font-family:courier;">DrinkCategoryActivity</font>.
+If the Drinks item was clicked, the `onItemClickListener` creates an intent to start `DrinkCategoryActivity`.
 
 ![](.guides/img/54.png)
 
 **4) DrinkCategoryActivity is a ListActivity.**
-The 
-<font style="font-family:courier;">DrinkCategoryActivity</font> list view uses an 
-<font style="font-family:courier;">ArrayAdapter<**Drink**></font> to display a list of the drink names.
+The `DrinkCategoryActivity` list view uses an 
+`ArrayAdapter<Drink>` to display a list of the drink names.
 
 ![](.guides/img/55.png)
 
@@ -27,7 +24,7 @@ The
 ![](.guides/img/57.png)
 
 **7) DrinkActivity is launched.**
-It retrieves the drink number from the intent, and gets details for the correct drink from the <font style="font-family:courier;">Drink</font> class. It uses this information to update its views.
+It retrieves the drink number from the intent, and gets details for the correct drink from the `Drink` class. It uses this information to update its views.
 
 ![](.guides/img/58.png)
 

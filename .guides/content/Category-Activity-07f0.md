@@ -1,4 +1,4 @@
-DrinkCategoryActivity is an example of a category activity. A category activity is one that shows the data that belongs to a particular category, often in a list. You then use the category activity to navigate to details of the data. We’re going to use DrinkCategoryActivity to display a list of drinks. When the user clicks on one of the drinks, we’ll show them the details of that drink.
+`DrinkCategoryActivity` is an example of a category activity. A category activity is one that shows the data that belongs to a particular category, often in a list. You then use the category activity to navigate to details of the data. We’re going to use `DrinkCategoryActivity` to display a list of drinks. When the user clicks on one of the drinks, we’ll show them the details of that drink.
 
 
 ![](.guides/img/30.png)

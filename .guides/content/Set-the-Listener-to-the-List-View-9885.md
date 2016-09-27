@@ -1,4 +1,4 @@
-Once you’ve created the OnClickItemListener, you need to attach it to the list view. You do this using the ListView **setOnItemClickListener()** method. The method takes one argument, the listner itself:
+Once you’ve created the `OnClickItemListener`, you need to attach it to the list view. You do this using the ListView **setOnItemClickListener()** method. The method takes one argument, the listener itself:
 
 ![](.guides/img/25.png)
 

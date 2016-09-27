@@ -5,63 +5,25 @@
   "source": {
    "name": "drink magnets 1",
    "showName": false,
-   "instructions": "\n//Populate the drink image\nImageView photo = (ImageView)findViewById(R.id.photo);",
+   "instructions": "...\n//Get the drink from the intent\nint drinkNo = (Integer)getIntent().getExtras().get(EXTRA_DRINKNO);\nDrink drink = Drink.drinks(drinkNo);\n//Populate the drink image\nImageView photo = (ImageView)findViewById(R.id.photo);",
    "points": "1",
-   "showValues": false,
-   "text": "photo.<<<setImageResource>>>(drink.getImageResourceId());\nphoto.<<<setContentDescription>>>(drink.getName());\n",
+   "showValues": true,
+   "text": "photo.<<<setImageResource>>>(drink.getImageResourceId());\nphoto.<<<setContentDescription>>>(drink.getName());\n//Populate the drink name\nTextView name = (TextView)findViewById(R.id.name);\nname.<<<setText>>>(drink.getName());\n\n//Populate the drink description\nTextView description = (TextView)findViewById(R.id.description);\ndescription.<<<setText>>>(drink.getDescription());",
    "tokens": {
     "blank": [
      "setImageResource",
-     "setContentDescription"
+     "setContentDescription",
+     "setText",
+     "setText"
     ],
     "text": [
      "photo.",
      0,
      "(drink.getImageResourceId());\nphoto.",
      0,
-     "(drink.getName());\n"
-    ]
-   }
-  }
- },
- {
-  "type": "fill-in-the-blanks",
-  "taskId": "fill-in-the-blanks-2206092048",
-  "source": {
-   "name": "drink magents",
-   "showName": false,
-   "instructions": "//Populate the drink name\nTextView name = (TextView)findViewById(R.id.name);\n",
-   "points": "1",
-   "showValues": false,
-   "text": "name.<<<setText>>>(drink.getName());",
-   "tokens": {
-    "blank": [
-     "setText"
-    ],
-    "text": [
-     "name.",
+     "(drink.getName());\n//Populate the drink name\nTextView name = (TextView)findViewById(R.id.name);\nname.",
      0,
-     "(drink.getName());"
-    ]
-   }
-  }
- },
- {
-  "type": "fill-in-the-blanks",
-  "taskId": "fill-in-the-blanks-3606999149",
-  "source": {
-   "name": "drink magnets 4",
-   "showName": false,
-   "instructions": "//Populate the drinks description\nTextView description = (TextView)findViewById(R.id.description);\n",
-   "points": "1",
-   "showValues": false,
-   "text": "description.<<<setText>>>(drink.getDescription());",
-   "tokens": {
-    "blank": [
-     "setText"
-    ],
-    "text": [
-     "description.",
+     "(drink.getName());\n\n//Populate the drink description\nTextView description = (TextView)findViewById(R.id.description);\ndescription.",
      0,
      "(drink.getDescription());"
     ]

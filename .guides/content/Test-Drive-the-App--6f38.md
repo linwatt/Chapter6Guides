@@ -1,4 +1,4 @@
-Make sure you’ve applied all the changes to activity_top_level.xml, and also updated strings.xml. 
+Make sure you’ve applied all the changes to *activity_top_level.xml*, and also updated *strings.xml*. 
 
 When you run the app, you should see the Starbuzz logo displayed on the device screen with the list view underneath it. The list view displays the three values from the options array. If you click on any of the options in the list, nothing happens, as we haven’t told the list view to respond to clicks yet. 
 
