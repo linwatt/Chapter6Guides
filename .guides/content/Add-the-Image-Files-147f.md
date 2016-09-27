@@ -10,3 +10,5 @@ When you save images to your project, Android assigns each of them an ID in the 
 
 
 ![](.guides/img/14.png)
+
+We've already added the image files for you in this project. 

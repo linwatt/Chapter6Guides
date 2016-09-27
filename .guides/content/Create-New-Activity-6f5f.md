@@ -1,4 +1,10 @@
+
+### Using Codio
+The file tree to the left shows the *app/src/main/java/com/hfad/starbuzz* folder. Right click the *starbuzz* folder and select "New File". Fill out the fields to create the new file.
+
+### Using Android Studio
 Create the new activity called `DrinkCategoryActivity` and uncheck the Generate Layout File
+
 
 ![](.guides/img/32.png)
 
