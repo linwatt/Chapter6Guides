@@ -347,11 +347,15 @@
   {
    "id": "6f5fca2d-1839-f8b0-d371-ce58de690ba3",
    "title": "Create New Activity",
-   "files": [],
-   "layout": "1-panel-tree",
-   "path": [
-    "app/src/main/java/com/hfad/starbuzz"
+   "files": [
+    {
+     "path": "app/src/main/java/com/hfad/starbuzz/DrinkCategoryActivity.java",
+     "panel": 0,
+     "action": "open"
+    }
    ],
+   "layout": "2-panels",
+   "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Create-New-Activity-6f5f.md",
    "chapter": false,
@@ -530,11 +534,14 @@
   {
    "id": "e2e0cbb3-a1c4-7e2c-b6ea-bf7ceca2c234",
    "title": "Create DrinkActivity",
-   "files": [],
-   "layout": "1-panel-tree",
-   "path": [
-    "app/src"
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
    ],
+   "layout": "1-panel",
+   "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Create-DrinkActivity-e2e0.md",
    "chapter": true,
@@ -634,6 +641,24 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Recap-0d70.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "89909a8a-cb9d-d9f7-e6d5-4bae49670c9f",
+   "title": "Test Drive the App!",
+   "files": [
+    {
+     "path": "#terminal: ",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Test-Drive-the-App--8990.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
